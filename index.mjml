@@ -1,0 +1,83 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+        span{
+            color:rgb(129, 152, 243);
+            font-weight: bold!important;
+
+        }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-image href="https://cosmicmarco.com" src="https://i.postimg.cc/BbdXggZs/logo-nospace.png" alt="logo" padding="0"/>
+                <mj-image padding="0" src="https://i.postimg.cc/1XYpZw9Y/section-1.png" alt="5 dollar drum tracks" href="https://cosmicmarco.com" />
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#202020" >
+            <mj-column padding="0" background-color="#202020">
+                <mj-button background-color="#5978F3" href="https://cosmicmarco.com" >
+                    SHOP NOW!
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#202020" >
+            <mj-column padding="0" background-color="#202020">
+                <mj-text color="#ffffff" line-height="1.5">
+                    <h2>We’ve got some exciting news! For a limited time,</h2>
+                    <p> We’re offering our high-quality drum tracks at the incredibly low price of just <span>$5!</span>
+                    </p>
+                    <h2>But that’s not all!</h2>
+                    <p> We’re also hard at work creating <span>FREE</span>  drum tracks that will be sent directly to our email subscribers. That means, as a part of our community, you’ll receive fresh, new MIDI Drum Tracks straight to your inbox – absolutely <span>free!</span> </p>
+                    <h2></h2>
+                    <p>Hurry, though! The <span> $5 </span>drum tracks offer won’t last forever. Grab yours now and stay tuned for the free tracks coming your way soon!</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+                <mj-section background-color="#202020" >
+            <mj-column padding="0" background-color="#202020">
+                <mj-button background-color="#5978F3" href="https://cosmicmarco.com" >
+                    SHOP NOW!
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#202020" >
+            <mj-column padding="0" background-color="#202020">
+                <mj-text color="#ffffff" line-height="1.5">
+                    <h2>Have you listened to our most resent <span>Free</span> Drum Track on Youtube?</h2>
+                </mj-text>
+                <mj-image href="https://www.youtube.com/@cosmicmarco" src="https://i.postimg.cc/MHGy4d8Q/free.png" alt="free drum track" width="300px"/>
+            </mj-column>
+        </mj-section>
+                <mj-section background-color="#202020" >
+            <mj-column padding="0" background-color="#202020">
+                <mj-button background-color="#5978F3" href="https://www.youtube.com/@cosmicmarco" >
+                    LISTEN TO IT HERE!
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#202020">
+            <mj-column background-color="#202020">
+            <mj-text color="#ffffff">
+                <h2>Are you are into <span>Instrumental</span> Metal?</h2>
+                </mj-text>
+                <mj-image src="https://i.postimg.cc/N0ytBr12/MUSIC.png" alt="cosmicmarco discography" href="https://cosmicmarco.bandcamp.com" />
+                <mj-button background-color="#5978F3" href="https://cosmicmarco.bandcamp.com" >
+                    Listen to my Music here
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#202020">
+            <mj-column background-color="#202020">
+            <mj-text color="#ffffff">
+                <h3>Thanks for being part of our music family!</h3>
+                </mj-text>
+                
+            </mj-column>
+        </mj-section>
+
+
+    </mj-body>
+</mjml>
