@@ -6,18 +6,30 @@
             font-weight: bold!important;
 
         }
+        .footer-link{
+            color: #ffffff!important;
+            text-decoration: none;
+        }
+        p{
+            font-size: 16px!important;
+            }
+        </mj-style>
+        <mj-style inline="inline">
+            .btn a{width: 170px !important;
+            font-weight: bold!important;
+            letter-spacing: 1px;}
         </mj-style>
     </mj-head>
     <mj-body>
         <mj-section padding="0">
             <mj-column>
-                <mj-image href="https://cosmicmarco.com" src="https://i.postimg.cc/BbdXggZs/logo-nospace.png" alt="logo" padding="0"/>
+                <mj-image href="https://cosmicmarco.com" src="https://i.postimg.cc/dQW9TWpC/logo-nospace.png" alt="logo" padding="0"/>
                 <mj-image padding="0" src="https://i.postimg.cc/1XYpZw9Y/section-1.png" alt="5 dollar drum tracks" href="https://cosmicmarco.com" />
             </mj-column>
         </mj-section>
         <mj-section background-color="#202020" >
-            <mj-column padding="0" background-color="#202020">
-                <mj-button background-color="#5978F3" href="https://cosmicmarco.com" >
+            <mj-column padding="20px 0 0 0" background-color="#202020">
+                <mj-button css-class="btn" background-color="#5978F3" href="https://cosmicmarco.com" >
                     SHOP NOW!
                 </mj-button>
             </mj-column>
@@ -37,7 +49,7 @@
         </mj-section>
                 <mj-section background-color="#202020" >
             <mj-column padding="0" background-color="#202020">
-                <mj-button background-color="#5978F3" href="https://cosmicmarco.com" >
+                <mj-button css-class="btn" background-color="#5978F3" href="https://cosmicmarco.com" >
                     SHOP NOW!
                 </mj-button>
             </mj-column>
@@ -51,8 +63,8 @@
             </mj-column>
         </mj-section>
                 <mj-section background-color="#202020" >
-            <mj-column padding="0" background-color="#202020">
-                <mj-button background-color="#5978F3" href="https://www.youtube.com/@cosmicmarco" >
+            <mj-column padding="20px 0" background-color="#202020">
+                <mj-button css-class="btn" background-color="#5978F3" href="https://www.youtube.com/@cosmicmarco" >
                     LISTEN TO IT HERE!
                 </mj-button>
             </mj-column>
@@ -64,19 +76,32 @@
                 <h2>Are you are into <span>Instrumental</span> Metal?</h2>
                 </mj-text>
                 <mj-image src="https://i.postimg.cc/N0ytBr12/MUSIC.png" alt="cosmicmarco discography" href="https://cosmicmarco.bandcamp.com" />
-                <mj-button background-color="#5978F3" href="https://cosmicmarco.bandcamp.com" >
+                <mj-button css-class="btn" background-color="#5978F3" href="https://cosmicmarco.bandcamp.com" >
                     Listen to my Music here
                 </mj-button>
             </mj-column>
         </mj-section>
         <mj-section background-color="#202020">
             <mj-column background-color="#202020">
-            <mj-text color="#ffffff">
+                <mj-text color="#ffffff" align="center">
                 <h3>Thanks for being part of our music family!</h3>
                 </mj-text>
                 
             </mj-column>
         </mj-section>
+        <mj-section background-color="#202020" padding-top="0">
+            <mj-column background-color="#202020">
+                <mj-image src="https://i.postimg.cc/dQW9TWpC/logo-nospace.png" alt="logo" href="https://cosmicmarco.com" width="350px"/>
+                <mj-text color="#ffffff" align="center" padding-top="0"> 
+                    <p>{{ address }}</p>
+                    <a class="footer-link" href="{{ unsubscribe_url }}"> Unsubscribe</a>
+                    |
+                    <a class="footer-link" href="{{ subscriber_preferences_url }}"> Update your profile</a>
+                    <p>© 2025 CosmicMarco</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        
 
 
     </mj-body>
