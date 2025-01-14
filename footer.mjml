@@ -10,6 +10,7 @@
             <mj-column background-color="#202020">
                 <mj-image src="https://i.postimg.cc/dQW9TWpC/logo-nospace.png" alt="logo" href="https://cosmicmarco.com" width="350px"/>
                 <mj-text color="#ffffff" align="center" padding-top="0"> 
+                    <p>{{ message_content }}</p>
                     <p>{{ address }}</p>
                     <a class="footer-link" href="{{ unsubscribe_url }}"> Unsubscribe</a>
                     |

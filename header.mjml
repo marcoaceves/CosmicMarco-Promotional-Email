@@ -1,0 +1,5 @@
+        <mj-section padding="0">
+            <mj-column>
+                <mj-image href="https://cosmicmarco.com" src="https://i.postimg.cc/dQW9TWpC/logo-nospace.png" alt="logo" padding="0"/>
+            </mj-column>
+        </mj-section>
