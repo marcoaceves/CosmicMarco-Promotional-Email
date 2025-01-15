@@ -9,6 +9,9 @@
         <mj-section background-color="#202020" padding-top="0">
             <mj-column background-color="#202020">
                 <mj-image src="https://i.postimg.cc/dQW9TWpC/logo-nospace.png" alt="logo" href="https://cosmicmarco.com" width="350px"/>
+                <mj-social>
+                    <mj-social-element name="youtube" href="https://www.youtube.com/@cosmicmarco" />
+                </mj-social>
                 <mj-text color="#ffffff" align="center" padding-top="0"> 
                     <p>{{ message_content }}</p>
                     <p>{{ address }}</p>
