@@ -15,7 +15,7 @@
             }
         ul, li{
             font-size: 15px!important;
-            }
+            } 
         </mj-style>
         <mj-style inline="inline">
             .btn a{width: 170px !important;

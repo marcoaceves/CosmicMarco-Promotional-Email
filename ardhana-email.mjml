@@ -45,9 +45,9 @@
                 </mj-button>
             </mj-column>
         </mj-section>
-        <mj-raw>
+        <mj-raw> 
         <!-- Section 1 Main Featured Product-->
-        </mj-raw>
+        </mj-raw> 
         <mj-section padding="0" background-color="#202020">
             <mj-column background-color="#202020" padding="0 0 40px 0" >
                 <mj-image alt="jam for free" padding="0" src="https://i.postimg.cc/RhmJwKzW/jam-for-free.png" href="https://youtu.be/LBy8hF5abEY"  width="300px"/>

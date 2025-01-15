@@ -1,0 +1,84 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+        span{
+            color:#ff5555 !important;
+            font-weight: 700!important;
+
+        }
+        .footer-link{
+            color: #ffffff!important;
+            text-decoration: none;
+        }
+        p{
+            font-size: 16px!important;
+            }
+        ul, li{
+            font-size: 15px!important;
+            }
+        </mj-style>
+        <mj-style inline="inline">
+            .btn a{width: 170px !important;
+            font-weight: bold!important;
+            letter-spacing: 1px;}
+        </mj-style>
+    </mj-head>
+    <mj-body>
+    <mj-raw>
+        <!-- Subject Line: ⚡️ Unlock Your Creativity: $5 Drum Tracks & FREE Inspiration! ⚡️ -->
+    </mj-raw>
+        <mj-raw>
+            <!-- Header- Logo-->
+        </mj-raw>
+         <mj-include path="./header.mjml" />
+
+                 <mj-raw>
+        <!-- Free Drum Track Section-->
+        </mj-raw> 
+        <mj-section background-color="#202020"  >
+            <mj-column padding="0 0 40px 0" background-color="#202020">
+                <mj-image href="https://cosmicmarco.com/products/ardhanarishvara-metalcore-drum-track-midi-fi" src="https://i.postimg.cc/gcRtHW3R/kala-deathmetal-drum.png" alt="Metalcore-Drum-Track"/>                <mj-text color="#ffffff" line-height="1.5" align="center">
+                    <h2>🤘Unleash the Power of your <span>Metalcore</span>  Songs: Epic Drum Tracks for Just <span>$5!</span>  </h2>
+                </mj-text>                
+                 <mj-button css-class="btn" background-color="#ff5555" href="https://cosmicmarco.com" >
+                    SHOP NOW!
+                </mj-button>
+            </mj-column> 
+        </mj-section>
+        <mj-raw>
+        <!-- Section 1 Main Featured Product-->
+        </mj-raw>
+        <mj-section padding="0" background-color="#202020">
+            <mj-column background-color="#202020" padding="0 0 40px 0" >
+                <mj-image alt="jam for free" padding="0" src="https://i.postimg.cc/tCjSrMzc/kala-jam-for-free.png" href="https://youtu.be/LBy8hF5abEY"  width="300px"/>
+                <mj-text color="#ffffff" line-height="1.5">
+
+                    <h2>💵Not Ready to make a <span>Purchase?</span> </h2>
+                    <p> You can still get a taste of our drum tracks by <span>jamming </span> for free! Click the button below to start <span>jamming</span>  now. </p>
+                    </p>
+                </mj-text>
+                <mj-button css-class="btn" background-color="#ff5555" href="https://youtu.be/LBy8hF5abEY" >
+                    Lets Jam!
+                </mj-button>
+            </mj-column>
+        </mj-section>       
+        <mj-section background-color="#202020">
+            <mj-column background-color="#202020">
+            <mj-text color="#ffffff" line-height="1.5">
+                <h2> 🎸Are you a fan of <span>Instrumental</span> Metal?</h2>
+                <p>Check out my latest releases,  on<span> Bandcamp.</span> Metal songs of
+                <span>Various Subgenres</span> , that’re sure to get your head banging!</p>
+                </mj-text>
+                <mj-image src="https://i.postimg.cc/N0ytBr12/MUSIC.png" alt="cosmicmarco discography" href="https://cosmicmarco.bandcamp.com" />
+                <mj-button css-class="btn" background-color="#ff5555" href="https://cosmicmarco.bandcamp.com" >
+                    LISTEN TO THEM HERE!
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- Footer Section -->
+        </mj-raw>
+        <mj-include path="./footer.mjml"/>
+    </mj-body>
+</mjml>
