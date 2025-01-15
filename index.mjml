@@ -52,6 +52,11 @@
         <mj-section background-color="#202020" >
             <mj-column padding="0" background-color="#202020">
                 <mj-text color="#ffffff" line-height="1.5">
+                    {% if subscriber.first_name == blank %}
+                    {%- assign skip = true -%}
+                    {% else %}
+                    <p>Hello, <span>{{ subscriber.first_name }}</span>  do you want to:</p>
+                    {% endif %}
 
                     <h2> ⚡️ Write Better Songs, Faster ⚡️ </h2>
                     <p> Tired of struggling to find the perfect drum groove?
