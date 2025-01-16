@@ -20,7 +20,7 @@
         <mj-style inline="inline">
             .btn a{width: 170px !important;
             font-weight: bold!important;
-            letter-spacing: 1px;}
+            letter-spacing: 1px!important;}
         </mj-style>
     </mj-head>
     <mj-body>
@@ -78,7 +78,7 @@
                 <mj-button css-class="btn" background-color="#ff5555" href="https://cosmicmarco.bandcamp.com" >
                     LISTEN TO THEM HERE!
                 </mj-button>
-            </mj-column>
+            </mj-column> 
         </mj-section>
 
         <mj-raw>

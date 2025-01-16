@@ -20,7 +20,7 @@
         <mj-style inline="inline">
             .btn a{width: 170px !important;
             font-weight: bold!important;
-            letter-spacing: 1px;}
+            letter-spacing: 1px!important;}
         </mj-style>
     </mj-head>
     <mj-body>
