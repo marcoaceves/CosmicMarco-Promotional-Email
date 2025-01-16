@@ -38,9 +38,14 @@
         <mj-section background-color="#202020"  >
             <mj-column padding="0 0 40px 0" background-color="#202020">
                 <mj-image href="https://cosmicmarco.com/products/ardhanarishvara-metalcore-drum-track-midi-fi" src="https://i.postimg.cc/DZv0j5RK/ardah-metalcore-drum.png" alt="Metalcore-Drum-Track"/>                <mj-text color="#ffffff" line-height="1.5" align="center">
+                    {% if subscriber.first_name == blank %}
+                    {%- assign skip = true -%}
+                    {% else %}
+                    <p>Hello, <span>{{ subscriber.first_name }}</span>  do you want to:</p>
+                    {% endif %}
                     <h2>🤘Unleash the Power of your <span>Metalcore</span>  Songs: Epic Drum Tracks for Just <span>$5!</span>  </h2>
                 </mj-text>               
-                 <mj-button css-class="btn" background-color="#5978F3" href="https://cosmicmarco.com" >
+                 <mj-button css-class="btn" background-color="#5978F3" href="https://cosmicmarco.com/products/ardhanarishvara-metalcore-drum-track-midi-fi" >
                     SHOP NOW!
                 </mj-button>
             </mj-column>

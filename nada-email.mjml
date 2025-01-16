@@ -37,10 +37,16 @@
         </mj-raw>
         <mj-section background-color="#202020"  >
             <mj-column padding="0 0 40px 0" background-color="#202020">
-                <mj-image href="https://cosmicmarco.com/products/ardhanarishvara-metalcore-drum-track-midi-fi" src="https://i.postimg.cc/90Gxmdc1/nada-powermetal-drum.png" alt="Metalcore-Drum-Track"/>                <mj-text color="#ffffff" line-height="1.5" align="center">
-                    <h2>🤘Unleash the Power of your <span>Metalcore</span>  Songs: Epic Drum Tracks for Just <span>$5!</span>  </h2>
+                <mj-image href="https://cosmicmarco.com/products/nada-brahma-drum-track-midi-file" src="https://i.postimg.cc/90Gxmdc1/nada-powermetal-drum.png" alt="Metalcore-Drum-Track"/>                <mj-text color="#ffffff" line-height="1.5" align="center">
+                    {% if subscriber.first_name == blank %}
+                    {%- assign skip = true -%}
+                    {% else %}
+                    <p>Hello, <span>{{ subscriber.first_name }}</span>  do you want to:</p>
+                    {% endif %}
+
+                    <h2>⚡ Ignite the Energy of Your Power Metal Masterpieces: Thunderous Drum Tracks for Only <span>$5!</span>  </h2>
                 </mj-text>               
-                 <mj-button css-class="btn" background-color="#5978F3" href="https://cosmicmarco.com" >
+                 <mj-button css-class="btn" background-color="#5978F3" href="https://cosmicmarco.com/products/nada-brahma-drum-track-midi-file" >
                     SHOP NOW!
                 </mj-button>
             </mj-column>
@@ -50,14 +56,14 @@
         </mj-raw>
         <mj-section padding="0" background-color="#202020">
             <mj-column background-color="#202020" padding="0 0 40px 0" >
-                <mj-image alt="jam for free" padding="0" src="https://i.postimg.cc/SR0TbTbJ/nada-jam-for-free.png" href="https://youtu.be/LBy8hF5abEY"  width="300px"/>
+                <mj-image alt="jam for free" padding="0" src="https://i.postimg.cc/SR0TbTbJ/nada-jam-for-free.png" href="https://youtu.be/iRB1cIFDxPg"  width="300px"/>
                 <mj-text color="#ffffff" line-height="1.5">
  
                     <h2>💵Not Ready to make a <span>Purchase?</span> </h2>
                     <p> You can still get a taste of our drum tracks by <span>jamming </span> for free! Click the button below to start <span>jamming</span>  now. </p>
                     </p>
                 </mj-text>
-                <mj-button css-class="btn" background-color="#5978F3" href="https://youtu.be/LBy8hF5abEY" >
+                <mj-button css-class="btn" background-color="#5978F3" href="https://youtu.be/iRB1cIFDxPg" >
                     Lets Jam!
                 </mj-button>
             </mj-column>  
@@ -65,6 +71,7 @@
         <mj-section background-color="#202020">
             <mj-column background-color="#202020">
             <mj-text color="#ffffff" line-height="1.5">
+        
                 <h2> 🎸Are you a fan of <span>Instrumental</span> Metal?</h2>
                 <p>Check out my latest releases,  on<span> Bandcamp.</span> Metal songs of
                 <span>Various Subgenres</span> , that’re sure to get your head banging!</p>

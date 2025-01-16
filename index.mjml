@@ -99,7 +99,7 @@
         <mj-section background-color="#202020" >
             <mj-column padding="0" background-color="#202020">
                 <mj-text color="#ffffff" line-height="1.5">
-                    <h2>Have you listened to our most recent <span>Free</span> Drum Track on Youtube?</h2>
+                    <h2>Have you listened to our <span>Free</span> Drum Track on Youtube?</h2>
                 </mj-text>
                 <mj-image href="https://youtu.be/5i_8edzKUtg" src="https://i.postimg.cc/MHGy4d8Q/free.png" alt="free drum track" width="300px"/>
             </mj-column>
