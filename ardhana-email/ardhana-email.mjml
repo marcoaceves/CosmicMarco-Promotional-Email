@@ -30,7 +30,7 @@
         <mj-raw>
             <!-- Header- Logo-->
         </mj-raw>
-         <mj-include path="./header.mjml" />
+         <mj-include path="../header.mjml" />
 
                  <mj-raw>
         <!-- Free Drum Track Section-->
@@ -84,6 +84,6 @@
         <mj-raw>
             <!-- Footer Section -->
         </mj-raw>
-        <mj-include path="./footer.mjml"/>
+        <mj-include path="../footer.mjml"/>
     </mj-body>
 </mjml>
