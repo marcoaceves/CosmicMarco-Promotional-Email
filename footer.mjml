@@ -1,7 +1,10 @@
         <mj-section background-color="#202020">
             <mj-column background-color="#202020">
                 <mj-text color="#ffffff" align="center">
-                <h3>Thanks for being part of our music family!</h3>
+                <h3><span>Thank you</span> for your support!</h3>
+                     <p>🎸 Stay tuned for the epic sounds coming your way soon!
+                    </p>
+                    <p>Stay metal, <span>CosmicMarco</span> 🤘</p>
                 </mj-text>
                 
             </mj-column>

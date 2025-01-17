@@ -41,9 +41,8 @@
                     {% if subscriber.first_name == blank %}
                     {%- assign skip = true -%}
                     {% else %}
-                    <p>Hello, <span>{{ subscriber.first_name }}</span>  do you want to:</p>
+                    <p>Hello <span>{{ subscriber.first_name }}</span>, do you want to:</p>
                     {% endif %}
-
                     <h2>⚡ Ignite the Energy of Your Power Metal Masterpieces: Thunderous Drum Tracks for Only <span>$5!</span>  </h2>
                 </mj-text>               
                  <mj-button css-class="btn" background-color="#5978F3" href="https://cosmicmarco.com/products/nada-brahma-drum-track-midi-file" >

@@ -1,0 +1,96 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+        span{
+            color:rgb(129, 152, 243) !important;
+            font-weight: 700!important;
+
+        }
+        .footer-link{
+            color: #ffffff!important;
+            text-decoration: none;
+        }
+        p{
+            font-size: 16px!important;
+            }
+        ul, li{
+            font-size: 15px!important;
+            } 
+        </mj-style>
+        <mj-style inline="inline">
+            .btn a{width: 170px !important;
+            font-weight: bold!important;
+            letter-spacing: 1px;}
+        </mj-style>
+    </mj-head>
+    <mj-body>
+    <mj-raw>
+        <!-- Subject Line: ⚡️ Unlock Your Creativity: $5 Drum Tracks & FREE Inspiration! ⚡️ -->
+    </mj-raw>
+        <mj-raw>
+            <!-- Header- Logo-->
+        </mj-raw>
+         <mj-include path="./header.mjml" />
+
+        <mj-raw>
+        <!-- Section 1 Copy and call to action-->            
+        </mj-raw>
+        <mj-section background-color="#202020" padding="0" >
+            <mj-column padding="0" background-color="#202020">
+                <mj-text color="#ffffff" line-height="1.5">
+                    {% if subscriber.first_name == blank %}
+                    {%- assign skip = true -%}
+                    {% else %}
+                    <p>Hello <span>{{ subscriber.first_name }}</span>,</p>
+                    {% endif %}
+
+                    <h2> ⚡️We’ve got some exciting news! </h2>
+                    <p>  Our <span>latest</span> tracks are almost ready to drop, and trust us, you won’t want to miss this.</p>
+
+                </mj-text>                    
+                <mj-image src="https://i.postimg.cc/rpGrfQ0L/soon-music.jpg" alt="coming soon" width="300px" />
+                <mj-text color="#ffffff" line-height="1.5">
+                    <h2>We’re putting the <span>final touches</span>  on everything, </h2>
+                    <p>we’ll be letting you know as  soon as they’re ready to <span>shred</span>. Keep an eye on your inbox for the official release announcement.</p>
+
+                </mj-text>
+                <mj-image width="300px" src="https://i.postimg.cc/qqvyhy7H/soon-DT.jpg" alt="coming soon" />
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+        <!-- Free Drum Track Section-->
+        </mj-raw>
+        <mj-section background-color="#202020" padding="0">
+            <mj-column padding="0" background-color="#202020">
+                <mj-text color="#ffffff" line-height="1.5">
+                    <h2> <span>In the meantime,</span> why not check out our other tracks:</h2>
+                </mj-text>
+                <mj-image href="https://www.youtube.com/@cosmicmarco" src="https://i.postimg.cc/66zbqhQq/Youtube.jpg" alt="YouTube"/>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#202020" >
+            <mj-column padding="20px 0" background-color="#202020">
+                <mj-button css-class="btn" background-color="#5978F3" href="https://www.youtube.com/@cosmicmarco" >
+                    YouTube!
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#202020" padding="0">
+            <mj-column padding="0" background-color="#202020">
+                <mj-image href="https://cosmicmarco.bandcamp.com" src="https://i.postimg.cc/yxfLG7Gc/band-camp-1.jpg" alt="Bandcamp"/>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#202020" >
+            <mj-column padding="20px 0" background-color="#202020">
+                <mj-button css-class="btn" background-color="#5978F3" href="https://cosmicmarco.bandcamp.com" >
+                    Bandcamp!
+                </mj-button>
+            </mj-column>
+        </mj-section>
+ 
+        <mj-raw>
+            <!-- Footer Section -->
+        </mj-raw>
+        <mj-include path="./footer.mjml"/>
+    </mj-body>
+</mjml> 

@@ -41,7 +41,7 @@
                     {% if subscriber.first_name == blank %}
                     {%- assign skip = true -%}
                     {% else %}
-                    <p>Hello, <span>{{ subscriber.first_name }}</span>  do you want to:</p>
+                    <p>Hello <span>{{ subscriber.first_name }}</span>, do you want to:</p>
                     {% endif %}
                     <h2>🤘Unleash the Power of your <span>Metalcore</span>  Songs: Epic Drum Tracks for Just <span>$5!</span>  </h2>
                 </mj-text>               
