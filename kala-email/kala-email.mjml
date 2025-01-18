@@ -12,7 +12,7 @@
         }
         p{
             font-size: 16px!important;
-            }
+            } 
         ul, li{
             font-size: 15px!important;
             }
@@ -37,7 +37,7 @@
         </mj-raw> 
         <mj-section background-color="#202020"  >
             <mj-column padding="0 0 40px 0" background-color="#202020">
-                <mj-image href="https://cosmicmarco.com/products/kala-death-metal-core-drum-track-midi-file-1" src="https://i.postimg.cc/gcRtHW3R/kala-deathmetal-drum.png" alt="Death-Metal-Drum-Track"/>                <mj-text color="#ffffff" line-height="1.5" align="center">
+                <mj-image href="https://cosmicmarco.com/b/kala" src="https://i.postimg.cc/gcRtHW3R/kala-deathmetal-drum.png" alt="Death-Metal-Drum-Track"/>                <mj-text color="#ffffff" line-height="1.5" align="center">
                     {% if subscriber.first_name == blank %}
                     {%- assign skip = true -%}
                     {% else %}
@@ -45,7 +45,7 @@
                     {% endif %}
                     <h2>💀 Crank Up the Brutality of Your Death Metal Tracks: Ferocious Drum Beats for Just <span>$5!</span>  </h2>
                 </mj-text>                
-                 <mj-button css-class="btn" background-color="#ff5555" href="https://cosmicmarco.com/products/kala-death-metal-core-drum-track-midi-file-1" >
+                 <mj-button css-class="btn" background-color="#ff5555" href="https://cosmicmarco.com/b/kala" >
                     SHOP NOW!
                 </mj-button>
             </mj-column> 
