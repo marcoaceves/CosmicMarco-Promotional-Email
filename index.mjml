@@ -39,13 +39,6 @@
                 <mj-image padding="0" src="https://i.postimg.cc/QtQmnXHF/sec1.png" alt="5 dollar drum tracks" href="https://cosmicmarco.com" />
             </mj-column>
         </mj-section>
-        <mj-section background-color="#202020" >
-            <mj-column padding="20px 0 0 0" background-color="#202020">
-                <mj-button css-class="btn" background-color="#5978F3" href="https://cosmicmarco.com" >
-                    SHOP NOW!
-                </mj-button>
-            </mj-column>
-        </mj-section>
         <mj-raw>
         <!-- Section 2 Copy and call to action-->            
         </mj-raw>
@@ -61,14 +54,13 @@
                     <h2> ⚡️ Write Better Songs, Faster ⚡️ </h2>
                     <p> Tired of struggling to find the perfect drum groove?
                         We're offering a limited-time deal to help you unlock your creativity and write better songs, faster:
+                        
                     </p>
-                    <ul>
-                    <li> <span>$5 Drum Tracks:</span> Get access to our awesome drum tracks for just $5 each. These tracks are designed to provide instant inspiration and a solid foundation for your songs.
-                    </li>
-                    <li><span>FREE Drum Tracks for Subscribers:</span>  Join our email list and receive a free, fresh MIDI drum tracks delivered directly to your inbox. These exclusive tracks will spark your creativity and keep you inspired.
-                    </li>
-                    </ul>
+                    <p> <span>$5 Drum Tracks:</span> Get access to our awesome drum tracks for just $5 each. These tracks are designed to provide instant inspiration and a solid foundation for your songs.</p>
                 </mj-text>
+                                <mj-button css-class="btn" background-color="#5978F3" href="https://cosmicmarco.com" >
+                    SHOP NOW!
+                </mj-button>
             </mj-column>
         </mj-section>
         <mj-section background-color="#202020" >
